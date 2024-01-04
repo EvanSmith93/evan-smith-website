@@ -38,6 +38,19 @@ code {
   background-color: #ffffff06;
 }
 
+.button,
+.button:hover {
+  background-color: rgb(50, 190, 160);
+  border-color: rgb(50, 190, 160);
+}
+
+.button:active {
+  background-color: rgb(35, 160, 130) !important;
+  border-color: rgb(35, 160, 130) !important;
+}
+
+/* Social Buttons */
+
 .social-buttons a {
   color: #ffffff;
   background-color: rgb(50, 190, 160);
@@ -49,9 +62,7 @@ code {
   transition: transform 250ms;
   display: inline-block;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  line-height: 3.75rem;
+  line-height: 4rem;
 }
 
 .last-social-button {
@@ -131,4 +142,27 @@ code {
   background-color: #1d1d20;
   box-shadow: 0px 0px 10px 2px #1d1d20;
   border-radius: 5px;
+}
+
+/* Contact */
+
+.form-item,
+.form-item:hover {
+  background-color: #ffffff09;
+  border-color: #ffffff09;
+  color: #ffffff;
+}
+
+.form-item:focus,
+.form-item:active {
+  background-color: #ffffff11;
+  border-color: #ffffff11;
+  color: #ffffff;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover {
+  -webkit-box-shadow: 0 0 0 1000rem rgba(1, 1, 1, 0.8) inset !important;
+  -webkit-text-fill-color: #ffffff;
 }
