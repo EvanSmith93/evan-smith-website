@@ -43,6 +43,7 @@
             "start": "October 2023",
             "end": "Present",
             "image": "assets/fhtl.png",
+            "link": "https://fhtl.org/",
             "responsibilities": [
                 "Optimized user experience in an Angular web app with 1 million+ users by implementing bug fixes and design enhancements.",
                 "Utilized git and GitHub for collaboration and safety of production software."
@@ -54,6 +55,7 @@
             "start": "February 2023",
             "end": "October 2023",
             "image": "assets/oit.png",
+            "link": "https://oit.byu.edu/",
             "responsibilities": [
                 "Monitored and resolved issues for ~4,000 BYU websites, network devices, servers, and processes.",
                 "Proactively identified and addressed potential issues with a message response time under 1 minute."
@@ -65,6 +67,7 @@
             "start": "June 2023",
             "end": "August 2023",
             "image": "assets/launchx.png",
+            "link": "https://launchx.com/",
             "responsibilities": [
                 "Mentored 78 high schoolers in starting a company with over $250 in profit in 4 weeks.",
                 "Increased student understanding by leading discussions on business concepts for 2 hours / week.",
@@ -77,11 +80,11 @@
             "start": "September 2022",
             "end": "December 2022",
             "image": "assets/byucs.jpg",
+            "link": "https://cs.byu.edu/",
             "responsibilities": [
                 "Managed the grading for ~110 students' weekly Python assignments.",
                 "Built strong teaching skills by conducting one-on-one tutoring sessions.",
                 "Assisted the professor by reworking 6 different assignments for clarity and readability."
-
             ]
         },
         {
@@ -90,10 +93,10 @@
             "start": "August 2020",
             "end": "March 2021",
             "image": "assets/dataready.jpg",
+            "link": "https://www.linkedin.com/company/dataready-dfw/",
             "responsibilities": [
                 "Prototyped a mobile app for helping K-12 schools find, book, and coordinate field trips.",
                 "Wrote ~1,600 lines of Swift code for the frontend of the app."
-
             ]
         }
     ],
@@ -106,7 +109,6 @@
             "bullets": [
                 "Built a mobile app for mood tracking and journaling and published it to the iOS and Android app stores.",
                 "Programmed the app using ~2,000 lines of Flutter / Dart code."
-
             ]
         },
         {
@@ -133,12 +135,23 @@
         {
             "name": "Be Rated",
             "description": "Social Media Rating App in Flutter with BYU Dev Club",
-            "image": "assets/berated.jpg",
+            "image": "assets/berated.png",
             "link": "",
             "bullets": [
                 "Developed collaborative programming skills by writing a mobile app with the BYU Developers Club.",
                 "Users receive daily prompts to rate and can compare ratings with friends.",
                 "Implemented pieces of the app’s frontend using Flutter."
+            ]
+        },
+        {
+            "name": "Chess",
+            "description": "Chess Server and Client in Java",
+            "image": "assets/chess.png",
+            "link": "",
+            "bullets": [
+                "Wrote over 5,500 lines of Java code for a chess server and client for a class project.",
+                "Implemented the rules of chess in Java using object-oriented programming.",
+                "Built a Java server with Spark and used a thread pool to handle multiple clients."
             ]
         }
     ]

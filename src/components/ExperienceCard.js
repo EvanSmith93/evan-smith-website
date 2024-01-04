@@ -13,7 +13,9 @@ const ExperienceCard = ({ exp, index }) => {
                 ))}
                 </ul>
             </div>
-            <img src={exp.image} alt={exp.company + " Logo"} className="experience-image"></img>
+            <a href={exp.link}>
+                <img src={exp.image} alt={exp.company + " Logo"} className="experience-image"></img>
+            </a>
         </div>
      );
 }
