@@ -7,22 +7,42 @@
         "school": "Brigham Young University",
         "degree": "Bachelor of Science",
         "major": "Computer Science",
+        "minor": "Entrepreneurship",
         "start": "August 2022",
         "graduation": "April 2026",
         "gpa": "4.00",
         "courses": [
-            "C S 111: Intro to Computer Science",
-            "C S 235: Data Structures and Algorithms",
-            "C S 236: Discrete Structures",
-            "C S 180: Intro to Data Science"
+            "CS 180 - Intro to Data Science",
+            "CS 224 - Intro to Computer Systems",
+            "CS 235 - Data Structures and Algorithms",
+            "CS 236 - Discrete Structures",
+            "CS 240 - Advanced Software Construction"
         ]
     },
+    "skills": [
+        { "name": "Python", "image": "assets/python.png" },
+        { "name": "NumPy", "image": "assets/numpy.png" },
+        { "name": "React", "image": "assets/react.png" },
+        { "name": "Angular", "image": "assets/angular.svg" },
+        { "name": "HTML", "image": "assets/html.png" },
+        { "name": "CSS", "image": "assets/css.png" },
+        { "name": "JavaScript", "image": "assets/js.png" },
+        { "name": "Node.js", "image": "assets/nodejs.png" },
+        { "name": "C++", "image": "assets/c++.png" },
+        { "name": "Java", "image": "assets/java.png" },
+        { "name": "MySQL", "image": "assets/mysql.png" },
+        { "name": "Flutter", "image": "assets/flutter.png" },
+        { "name": "Swift", "image": "assets/swift.png" },
+        { "name": "Git", "image": "assets/git.png" },
+        { "name": "GitHub", "image": "assets/github.png" }
+    ],
     "experience": [
         {
             "company": "BYU Family History Technology Lab",
             "position": "Student Software Engineer",
             "start": "October 2023",
             "end": "Present",
+            "image": "assets/fhtl.png",
             "responsibilities": [
                 "Optimized user experience in an Angular web app with 1 million+ users by implementing bug fixes and design enhancements.",
                 "Utilized git and GitHub for collaboration and safety of production software."
@@ -33,6 +53,7 @@
             "position": "Operations Intern",
             "start": "February 2023",
             "end": "October 2023",
+            "image": "assets/oit.png",
             "responsibilities": [
                 "Monitored and resolved issues for ~4,000 BYU websites, network devices, servers, and processes.",
                 "Proactively identified and addressed potential issues with a message response time under 1 minute."
@@ -43,6 +64,7 @@
             "position": "Education and Support Intern",
             "start": "June 2023",
             "end": "August 2023",
+            "image": "assets/launchx.png",
             "responsibilities": [
                 "Mentored 78 high schoolers in starting a company with over $250 in profit in 4 weeks.",
                 "Increased student understanding by leading discussions on business concepts for 2 hours / week.",
@@ -54,6 +76,7 @@
             "position": "TA for Intro to Data Science",
             "start": "September 2022",
             "end": "December 2022",
+            "image": "assets/byucs.jpg",
             "responsibilities": [
                 "Managed the grading for ~110 students' weekly Python assignments.",
                 "Built strong teaching skills by conducting one-on-one tutoring sessions.",
@@ -66,6 +89,7 @@
             "position": "Mobile App Developer Intern",
             "start": "August 2020",
             "end": "March 2021",
+            "image": "assets/dataready.jpg",
             "responsibilities": [
                 "Prototyped a mobile app for helping K-12 schools find, book, and coordinate field trips.",
                 "Wrote ~1,600 lines of Swift code for the frontend of the app."
@@ -77,41 +101,45 @@
         {
             "name": "Mood Memo",
             "description": "Mood Tracking and Journaling app in Flutter",
+            "image": "assets/moodmemo.png",
+            "link": "https://evansmith93.github.io/mood-memo-site/",
             "bullets": [
                 "Built a mobile app for mood tracking and journaling and published it to the iOS and Android app stores.",
                 "Programmed the app using ~2,000 lines of Flutter / Dart code."
 
-            ],
-            "link": ""
+            ]
         },
         {
             "name": "Scalamental",
             "description": "2D GameMaker game for GitHub Game Off 2023",
+            "image": "assets/scalamental.png",
+            "link": "",
             "bullets": [
                 "Competed in GitHub’s month-long game making competition by building a 2D action game themed to chameleons.",
                 "Learned GameMaker, a game engine for 2D games, while working together with 2 other friends."
-            ],
-            "link": ""
+            ]
         },
         {
             "name": "E-waste Facts",
             "description": "E-waste Information Website with Bootstrap",
+            "image": "assets/ewaste.png",
+            "link": "https://evansmith93.github.io/e-waste-facts/",
             "bullets": [
                 "Advocated for e-waste reduction through the creation of a website.",
                 "Invested ~10 hours building the site using custom HTML/CSS/Bootstrap."
 
-            ],
-            "link": "https://evansmith93.github.io/e-waste-facts/"
+            ]
         },
         {
             "name": "Be Rated",
-            "description": "Social Media Rating App in Flutter - with BYU Developers Club",
+            "description": "Social Media Rating App in Flutter with BYU Dev Club",
+            "image": "assets/berated.jpg",
+            "link": "",
             "bullets": [
                 "Developed collaborative programming skills by writing a mobile app with the BYU Developers Club.",
                 "Users receive daily prompts to rate and can compare ratings with friends.",
                 "Implemented pieces of the app’s frontend using Flutter."
-            ],
-            "link": ""
+            ]
         }
     ]
 }

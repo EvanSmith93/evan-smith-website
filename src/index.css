@@ -49,7 +49,13 @@ code {
   transition: transform 250ms;
   display: inline-block;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   line-height: 3.75rem;
+}
+
+.last-social-button {
+  margin-right: 0 !important;
 }
 
 .social-buttons a:hover, a:active {
@@ -59,4 +65,70 @@ code {
 
 .gray {
   color: #bbb;
+}
+
+/* Skills */
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  justify-content: center;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Experience */
+
+.experience-card {
+  position: relative;
+}
+
+.experience-card-header {
+  margin-right: 4rem;
+}
+
+.experience-image {
+  position: absolute;
+  top: 16px;
+  right: 28px;
+  width: 3.5rem;
+  height: 3.5rem;
+  object-fit: cover;
+  border-radius: 0.375rem;
+}
+
+/* Project Cards */
+
+.clickable {
+  cursor: pointer;
+  transition-duration: 300ms;
+}
+
+.clickable:hover {
+  transform: scale(1.025);
+}
+
+.project-card img {
+  height: 14rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: var(--bs-card-border-radius) var(--bs-card-border-radius) 0 0;
+}
+
+/* Project Details */
+
+.project-details {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background-color: #1d1d20;
+  box-shadow: 0px 0px 10px 2px #1d1d20;
+  border-radius: 5px;
 }
