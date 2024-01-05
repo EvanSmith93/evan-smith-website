@@ -7,10 +7,10 @@ import {
 const SocialButtons = () => {
     return ( 
         <div className='social-buttons'>
-          <a href='https://linkedin.com/in/evansmith04/' target='_blank'>
+          <a href='https://linkedin.com/in/evansmith04/' target='_blank' rel='noreferrer'>
             <FontAwesomeIcon icon={faLinkedin} size='2x' />
           </a>
-          <a href='https://github.com/EvanSmith93' target='_blank' className='last-social-button'>
+          <a href='https://github.com/EvanSmith93' target='_blank' rel='noreferrer' className='last-social-button'>
             <FontAwesomeIcon icon={faGithub} size='2x' />
           </a>
         </div>
