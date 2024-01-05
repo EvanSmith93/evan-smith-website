@@ -10,10 +10,6 @@ const Projects = () => {
                     <ProjectCard project={project} />
                 ))}
             </div>
-
-            {/* {showPopup && (
-            <ProjectDetail onClose={handleClosePopup} />
-            )} */}
         </section>
      );
 }

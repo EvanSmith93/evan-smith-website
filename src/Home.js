@@ -15,12 +15,6 @@ import Contact from './sections/Contact';
 import Navbar from './components/Navbar';
 
 const Home = () => {
-  // const [showPopup, setShowPopup] = useState(false);
-
-  // const handleClosePopup = () => {
-  //   setShowPopup(false);
-  // };
-
   return (
     <div className='text-white'>
       <Header />
