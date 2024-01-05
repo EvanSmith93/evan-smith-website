@@ -3,7 +3,7 @@ import data from '../data.json'
 
 const Projects = () => {
     return ( 
-        <section className='row dark-bg p-5'>
+        <section className='row dark-bg p-5' id='projects'>
             <h1 className='mb-4'>Projects</h1>
             <div className='row'>
                 {data.projects.map((project, index) => (

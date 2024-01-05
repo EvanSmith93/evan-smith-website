@@ -1,10 +1,12 @@
 {
     "name": "Evan Smith",
     "bio": "Sophomore in Computer Science at Brigham Young University",
-    "email": "evan.smith993@gmail.com",
-    "phone": "469-847-3187",
     "education": {
-        "school": "Brigham Young University",
+        "school": {
+            "name": "Brigham Young University",
+            "image": "assets/byu.jpg",
+            "link": "https://www.byu.edu/"
+        },
         "degree": "Bachelor of Science",
         "major": "Computer Science",
         "minor": "Entrepreneurship",
@@ -12,11 +14,15 @@
         "graduation": "April 2026",
         "gpa": "4.00",
         "courses": [
-            "CS 180 - Intro to Data Science",
-            "CS 224 - Intro to Computer Systems",
-            "CS 235 - Data Structures and Algorithms",
-            "CS 236 - Discrete Structures",
-            "CS 240 - Advanced Software Construction"
+            { "number": "CS 180", "name": "Intro to Data Science" },
+            { "number": "CS 224", "name": "Intro to Computer Systems" },
+            { "number": "CS 235", "name": "Data Structures and Algorithms" },
+            { "number": "CS 240", "name": "Advanced Software Construction" }
+        ],
+        "activities": [
+            { "name": "BYU Developers Club", "image": "assets/devclub.jpg", "link": "https://dev.byu.edu/" },
+            { "name": "Competitive Programming Club", "image": "assets/cpc.png", "link": "https://cs.byu.edu/community/students/clubs/byu-competitive-programming-club/" },
+            { "name": "Humor U Comedy Club", "image": "assets/humoru.jpg", "link": "https://linktr.ee/humoru" }
         ]
     },
     "skills": [
@@ -115,7 +121,7 @@
             "name": "Scalamental",
             "description": "2D GameMaker game for GitHub Game Off 2023",
             "image": "assets/scalamental.png",
-            "link": "",
+            "link": "https://acsnow99.itch.io/scalemental",
             "bullets": [
                 "Competed in GitHub’s month-long game making competition by building a 2D action game themed to chameleons.",
                 "Learned GameMaker, a game engine for 2D games, while working together with 2 other friends."
