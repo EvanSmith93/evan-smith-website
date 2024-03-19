@@ -9,20 +9,25 @@
         },
         "degree": "Bachelor of Science",
         "major": "Computer Science",
-        "minor": "Entrepreneurship",
+        "minors": "Entrepreneurship and Mathematics",
         "start": "August 2022",
         "graduation": "April 2026",
         "gpa": "4.00",
+        "sat": "1490",
+        "satPercentile": "3",
+        "deansList": "Fall 2023",
+        "deansListPercentile": "5",
+        "emphasis": "Machine Learning",
         "courses": [
+            { "number": "MATH 380", "name": "Mathematics of Data Science" },
             { "number": "CS 180", "name": "Intro to Data Science" },
-            { "number": "CS 224", "name": "Intro to Computer Systems" },
-            { "number": "CS 235", "name": "Data Structures and Algorithms" },
+            { "number": "CS 312", "name": "Algorithm Design and Analysis" },
             { "number": "CS 240", "name": "Advanced Software Construction" }
         ],
         "activities": [
+            { "name": "Humor U Comedy Club (leadership)", "image": "assets/humoru.jpg", "link": "https://linktr.ee/humoru" },
             { "name": "BYU Developers Club", "image": "assets/devclub.jpg", "link": "https://dev.byu.edu/" },
-            { "name": "Competitive Programming Club", "image": "assets/cpc.png", "link": "https://cs.byu.edu/community/students/clubs/byu-competitive-programming-club/" },
-            { "name": "Humor U Comedy Club", "image": "assets/humoru.jpg", "link": "https://linktr.ee/humoru" }
+            { "name": "Competitive Programming Club", "image": "assets/cpc.png", "link": "https://cs.byu.edu/community/students/clubs/byu-competitive-programming-club/" }
         ]
     },
     "skills": [
@@ -51,8 +56,9 @@
             "image": "assets/fhtl.png",
             "link": "https://fhtl.org/",
             "responsibilities": [
-                "Optimized user experience in an Angular web app with 1 million+ users by implementing bug fixes and design enhancements.",
-                "Utilized git and GitHub for collaboration and safety of production software."
+                "Reworked authentication process for Angular web app to use OAuth 2.0",
+                "Optimized user experience in a 1 million+ user web app by implementing design enhancements",
+                "Utilized git and GitHub for collaboration and safety of production software"
             ]
         },
         {
@@ -63,8 +69,8 @@
             "image": "assets/oit.png",
             "link": "https://oit.byu.edu/",
             "responsibilities": [
-                "Monitored and resolved issues for ~4,000 BYU websites, network devices, servers, and processes.",
-                "Proactively identified and addressed potential issues with a message response time under 1 minute."
+                "Monitored and resolved issues for ~4,000 BYU websites, network devices, servers, and processes",
+                "Identified and addressed potential issues with a message response time under 1 minute"
             ]
         },
         {
@@ -75,9 +81,9 @@
             "image": "assets/launchx.png",
             "link": "https://launchx.com/",
             "responsibilities": [
-                "Mentored 78 high schoolers in starting a company with over $250 in profit in 4 weeks.",
-                "Increased student understanding by leading discussions on business concepts for 2 hours / week.",
-                "Learned 3D printing through helping teams prototype the products for their business."
+                "Mentored 78 high schoolers in starting a company with over $250 in profit in 4 weeks",
+                "Increased student understanding by leading discussions on business concepts for 2 hours/week",
+                "Learned 3D printing by helping teams prototype the products for their business"
             ]
         },
         {
@@ -88,9 +94,9 @@
             "image": "assets/byucs.jpg",
             "link": "https://cs.byu.edu/",
             "responsibilities": [
-                "Managed the grading for ~110 students' weekly Python assignments.",
-                "Built strong teaching skills by conducting one-on-one tutoring sessions.",
-                "Assisted the professor by reworking 6 different assignments for clarity and readability."
+                "Managed grading for ~110 students' weekly Python assignments",
+                "Built strong teaching skills by conducting one-on-one tutoring sessions",
+                "Assisted professor by reworking 6 different assignments for clarity and readability"
             ]
         },
         {
@@ -101,8 +107,8 @@
             "image": "assets/dataready.jpg",
             "link": "https://www.linkedin.com/company/dataready-dfw/",
             "responsibilities": [
-                "Prototyped a mobile app for helping K-12 schools find, book, and coordinate field trips.",
-                "Wrote ~1,600 lines of Swift code for the frontend of the app."
+                "Prototyped a mobile app for helping K-12 schools find, book, and coordinate field trips",
+                "Wrote ~1,600 lines of Swift code for the frontend of the app"
             ]
         }
     ],
@@ -113,8 +119,8 @@
             "image": "assets/moodmemo.png",
             "link": "https://evansmith93.github.io/mood-memo-site/",
             "bullets": [
-                "Built a mobile app for mood tracking and journaling and published it to the iOS and Android app stores.",
-                "Programmed the app using ~2,000 lines of Flutter / Dart code."
+                "Built a mobile app for mood tracking and journaling and published it to the iOS and Android app stores",
+                "Programmed the app using ~2,000 lines of Flutter / Dart code"
             ]
         },
         {
@@ -123,9 +129,21 @@
             "image": "assets/scalamental.png",
             "link": "https://acsnow99.itch.io/scalemental",
             "bullets": [
-                "Competed in GitHub’s month-long game making competition by building a 2D action game themed to chameleons.",
-                "Learned GameMaker, a game engine for 2D games, while working together with 2 other friends."
+                "Competed in GitHub's month-long game making competition by building a 2D action game themed to chameleons",
+                "Learned GameMaker, a game engine for 2D games, while working together with 2 other friends"
             ]
+        },
+        {
+            "name": "YouTube Comment Filter",
+            "description": "Chrome Extension for BYU YHack 2024",
+            "image": "assets/youtube.png",
+            "link": "",
+            "bullets": [
+                "Developed an Angular Chrome extension for sorting YouTube comments by sentiment",
+                "Designed and implemented the extension with 4 friends over 24 hours",
+                "Awarded best design at the hackathon"
+            ]
+
         },
         {
             "name": "E-waste Facts",
@@ -133,8 +151,8 @@
             "image": "assets/ewaste.png",
             "link": "https://evansmith93.github.io/e-waste-facts/",
             "bullets": [
-                "Advocated for e-waste reduction through the creation of a website.",
-                "Invested ~10 hours building the site using custom HTML/CSS/Bootstrap."
+                "Advocated for e-waste reduction through the creation of a website",
+                "Invested ~10 hours building the site using custom HTML/CSS/Bootstrap"
 
             ]
         },
@@ -144,9 +162,9 @@
             "image": "assets/berated.png",
             "link": "",
             "bullets": [
-                "Developed collaborative programming skills by writing a mobile app with the BYU Developers Club.",
-                "Users receive daily prompts to rate and can compare ratings with friends.",
-                "Implemented pieces of the app’s frontend using Flutter."
+                "Developed collaborative programming skills by writing a mobile app with the BYU Developers Club",
+                "Storyboarded app layout and features to achieve the best design",
+                "Developed parts of the frontend in Flutter over 8 months"
             ]
         },
         {
@@ -155,9 +173,19 @@
             "image": "assets/chess.png",
             "link": "",
             "bullets": [
-                "Wrote over 5,500 lines of Java code for a chess server and client for a class project.",
-                "Implemented the rules of chess in Java using object-oriented programming.",
-                "Built a Java server with Spark and used a thread pool to handle multiple clients."
+                "Wrote over 5,500 lines of Java code for a chess server and client for a class project",
+                "Implemented the rules of chess in Java using object-oriented programming",
+                "Built a Java server with Spark and used a thread pool to handle multiple clients"
+            ]
+        },
+        {
+            "name": "Personal Website",
+            "description": "Portfolio Website in React",
+            "image": "assets/website.png",
+            "link": "https://evansmith.one/",
+            "bullets": [
+                "Designed and built a personal website to showcase my projects and skills (this website)",
+                "Utilized React and custom CSS to create a visually appealing site"
             ]
         }
     ]
