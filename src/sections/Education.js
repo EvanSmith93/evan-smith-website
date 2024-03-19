@@ -17,10 +17,10 @@ const Education = () => {
                             <li>Minor in {data.education.minor}</li>
                             <li>GPA: {data.education.gpa} / 4.00</li>
                         </ul>
+                        <a href={data.education.school.link}>
+                            <img src={data.education.school.image} alt={data.education.school.name + " Logo"} className="corner-image"></img>
+                        </a>
                     </div>
-                    <a href={data.education.school.link}>
-                        <img src={data.education.school.image} alt={data.education.school.name + " Logo"} className="corner-image"></img>
-                    </a>
 
                     { /* Activities */ }
                     <div className='card p-3'>

@@ -12,10 +12,10 @@ const ExperienceCard = ({ exp, index }) => {
                     <li key={index}>{responsibility}</li>
                 ))}
                 </ul>
-            </div>
-            <a href={exp.link}>
-                <img src={exp.image} alt={exp.company + " Logo"} className="corner-image"></img>
-            </a>
+                <a href={exp.link}>
+                    <img src={exp.image} alt={exp.company + " Logo"} className="corner-image"></img>
+                </a>
+            </div>     
         </div>
      );
 }
