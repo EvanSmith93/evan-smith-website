@@ -15,8 +15,8 @@ const Education = () => {
                         <h4 className='highlight'>{data.education.degree} in {data.education.major}</h4>
                         <ul>
                             <li>{data.education.gpa} / 4.00 GPA</li>
-                            <li>{data.education.sat} / 1600 SAT (top {data.education.satPercentile}% of nation)</li>
                             <li>Dean's List {data.education.deansList} (top {data.education.deansListPercentile}% of college)</li>
+                            <li>{data.education.sat} / 1600 SAT (top {data.education.satPercentile}% of nation)</li>
                             <li>Minors in {data.education.minors}</li>
                             <li>Emphasis in {data.education.emphasis}</li>
                         </ul>
