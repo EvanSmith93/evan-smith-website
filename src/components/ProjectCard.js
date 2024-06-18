@@ -1,7 +1,7 @@
-const ProjectCard = ({ onClick, project, index }) => {
+const ProjectCard = ({ project }) => {
     const handleClick = () => {
         if (project.link) {
-            window.location.href = project.link;
+            window.open(project.link, '_blank');
         }
     };
 

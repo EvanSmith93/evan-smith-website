@@ -21,7 +21,7 @@ const Education = () => {
                             <li>Emphasis in {data.education.emphasis}</li>
                         </ul>
                     </div>
-                    <a href={data.education.school.link}>
+                    <a href={data.education.school.link} target='_blank' rel="noreferrer">
                         <img src={data.education.school.image} alt={data.education.school.name + " Logo"} className="corner-image"></img>
                     </a>
 
@@ -32,7 +32,7 @@ const Education = () => {
                             {data.education.activities.map((activity, index) => {
                                 return (
                                     <div className='col-sm-4'>
-                                        <a href={activity.link}>
+                                        <a href={activity.link} target='_blank' rel="noreferrer">
                                             <img src={activity.image} alt={activity.name}></img>
                                             <p className='gray'>{activity.name}</p>
                                         </a>

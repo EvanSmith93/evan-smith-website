@@ -13,7 +13,7 @@ const ExperienceCard = ({ exp, index }) => {
                 ))}
                 </ul>
             </div>
-            <a href={exp.link}>
+            <a href={exp.link} target='_blank' rel="noreferrer">
                 <img src={exp.image} alt={exp.company + " Logo"} className="corner-image"></img>
             </a>
         </div>

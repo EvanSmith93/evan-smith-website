@@ -1,195 +1,216 @@
 {
-    "name": "Evan Smith",
-    "bio": "Junior in Computer Science at Brigham Young University",
-    "education": {
-        "school": {
-            "name": "Brigham Young University",
-            "image": "assets/byu.jpg",
-            "link": "https://www.byu.edu/"
-        },
-        "degree": "Bachelor of Science",
-        "major": "Computer Science",
-        "minors": "Entrepreneurship and Mathematics",
-        "start": "August 2022",
-        "graduation": "April 2026",
-        "gpa": "4.00",
-        "sat": "1490",
-        "satPercentile": "3",
-        "deansList": "Fall 2023",
-        "deansListPercentile": "5",
-        "emphasis": "Machine Learning",
-        "courses": [
-            { "number": "MATH 380", "name": "Mathematics of Data Science" },
-            { "number": "CS 180", "name": "Intro to Data Science" },
-            { "number": "CS 312", "name": "Algorithm Design and Analysis" },
-            { "number": "CS 240", "name": "Advanced Software Construction" }
-        ],
-        "activities": [
-            { "name": "Humor U Comedy Club (leadership)", "image": "assets/humoru.jpg", "link": "https://linktr.ee/humoru" },
-            { "name": "BYU Developers Club", "image": "assets/devclub.jpg", "link": "https://dev.byu.edu/" },
-            { "name": "Competitive Programming Club", "image": "assets/cpc.png", "link": "https://cs.byu.edu/community/students/clubs/byu-competitive-programming-club/" }
-        ]
+  "name": "Evan Smith",
+  "bio": "Junior in Computer Science at Brigham Young University",
+  "education": {
+    "school": {
+      "name": "Brigham Young University",
+      "image": "assets/byu.jpg",
+      "link": "https://www.byu.edu/"
     },
-    "skills": [
-        { "name": "Python", "image": "assets/python.png" },
-        { "name": "NumPy", "image": "assets/numpy.png" },
-        { "name": "React", "image": "assets/react.png" },
-        { "name": "Remix", "image": "assets/remix.png" },
-        { "name": "Angular", "image": "assets/angular.svg" },
-        { "name": "HTML", "image": "assets/html.png" },
-        { "name": "CSS", "image": "assets/css.png" },
-        { "name": "JavaScript", "image": "assets/js.png" },
-        { "name": "Node.js", "image": "assets/nodejs.png" },
-        { "name": "C++", "image": "assets/c++.png" },
-        { "name": "Java", "image": "assets/java.png" },
-        { "name": "MySQL", "image": "assets/mysql.png" },
-        { "name": "Flutter", "image": "assets/flutter.png" },
-        { "name": "Swift", "image": "assets/swift.png" },
-        { "name": "Git", "image": "assets/git.png" },
-        { "name": "GitHub", "image": "assets/github.png" }
+    "degree": "Bachelor of Science",
+    "major": "Computer Science",
+    "minors": "Entrepreneurship and Mathematics",
+    "start": "August 2022",
+    "graduation": "April 2026",
+    "gpa": "4.00",
+    "sat": "1490",
+    "satPercentile": "3",
+    "deansList": "Fall 2023",
+    "deansListPercentile": "5",
+    "emphasis": "Machine Learning",
+    "courses": [
+      { "number": "MATH 380", "name": "Mathematics of Data Science" },
+      { "number": "CS 180", "name": "Intro to Data Science" },
+      { "number": "CS 312", "name": "Algorithm Design and Analysis" },
+      { "number": "CS 240", "name": "Advanced Software Construction" }
     ],
-    "experience": [
-        {
-            "company": "BYU Family History Technology Lab",
-            "position": "Student Software Engineer",
-            "start": "October 2023",
-            "end": "Present",
-            "image": "assets/fhtl.png",
-            "link": "https://fhtl.org/",
-            "responsibilities": [
-                "Reworked authentication process for Angular web app to use OAuth 2.0",
-                "Optimized user experience in a 1 million+ user web app by implementing design enhancements",
-                "Utilized git and GitHub for collaboration and safety of production software"
-            ]
-        },
-        {
-            "company": "BYU Office of Information Technology",
-            "position": "Operations Intern",
-            "start": "February 2023",
-            "end": "October 2023",
-            "image": "assets/oit.png",
-            "link": "https://oit.byu.edu/",
-            "responsibilities": [
-                "Monitored and resolved issues for ~4,000 BYU websites, network devices, servers, and processes",
-                "Identified and addressed potential issues with a message response time under 1 minute"
-            ]
-        },
-        {
-            "company": "LaunchX Entrepreneurship Program",
-            "position": "Education and Support Intern",
-            "start": "June 2023",
-            "end": "August 2023",
-            "image": "assets/launchx.png",
-            "link": "https://launchx.com/",
-            "responsibilities": [
-                "Mentored 78 high schoolers in starting a company with over $250 in profit in 4 weeks",
-                "Increased student understanding by leading discussions on business concepts for 2 hours/week",
-                "Learned 3D printing by helping teams prototype the products for their business"
-            ]
-        },
-        {
-            "company": "BYU Office of Computer Science",
-            "position": "TA for Intro to Data Science",
-            "start": "September 2022",
-            "end": "December 2022",
-            "image": "assets/byucs.jpg",
-            "link": "https://cs.byu.edu/",
-            "responsibilities": [
-                "Managed grading for ~110 students' weekly Python assignments",
-                "Built strong teaching skills by conducting one-on-one tutoring sessions",
-                "Assisted professor by reworking 6 different assignments for clarity and readability"
-            ]
-        },
-        {
-            "company": "DataReady DFW",
-            "position": "Mobile App Developer Intern",
-            "start": "August 2020",
-            "end": "March 2021",
-            "image": "assets/dataready.jpg",
-            "link": "https://www.linkedin.com/company/dataready-dfw/",
-            "responsibilities": [
-                "Prototyped a mobile app for helping K-12 schools find, book, and coordinate field trips",
-                "Wrote ~1,600 lines of Swift code for the frontend of the app"
-            ]
-        }
-    ],
-    "projects": [
-        {
-            "name": "Mood Memo",
-            "description": "Mood Tracking and Journaling app in Flutter",
-            "image": "assets/moodmemo.png",
-            "link": "https://evansmith93.github.io/mood-memo-site/",
-            "bullets": [
-                "Built a mobile app for mood tracking and journaling and published it to the iOS and Android app stores",
-                "Programmed the app using ~2,000 lines of Flutter / Dart code"
-            ]
-        },
-        {
-            "name": "Scalamental",
-            "description": "2D GameMaker game for GitHub Game Off 2023",
-            "image": "assets/scalamental.png",
-            "link": "https://acsnow99.itch.io/scalemental",
-            "bullets": [
-                "Competed in GitHub's month-long game making competition by building a 2D action game themed to chameleons",
-                "Learned GameMaker, a game engine for 2D games, while working together with 2 other friends"
-            ]
-        },
-        {
-            "name": "YouTube Comment Filter",
-            "description": "Chrome Extension for BYU YHack 2024",
-            "image": "assets/youtube.png",
-            "link": "",
-            "bullets": [
-                "Developed an Angular Chrome extension for sorting YouTube comments by sentiment",
-                "Designed and implemented the extension with 4 friends over 24 hours",
-                "Awarded best design at the hackathon"
-            ]
-
-        },
-        {
-            "name": "E-waste Facts",
-            "description": "E-waste Information Website with Bootstrap",
-            "image": "assets/ewaste.png",
-            "link": "https://evansmith93.github.io/e-waste-facts/",
-            "bullets": [
-                "Advocated for e-waste reduction through the creation of a website",
-                "Invested ~10 hours building the site using custom HTML/CSS/Bootstrap"
-
-            ]
-        },
-        {
-            "name": "Be Rated",
-            "description": "Social Media Rating App in Flutter with BYU Dev Club",
-            "image": "assets/berated.png",
-            "link": "",
-            "bullets": [
-                "Developed collaborative programming skills by writing a mobile app with the BYU Developers Club",
-                "Storyboarded app layout and features to achieve the best design",
-                "Developed parts of the frontend in Flutter over 8 months"
-            ]
-        },
-        {
-            "name": "Chess",
-            "description": "Chess Server and Client in Java",
-            "image": "assets/chess.png",
-            "link": "",
-            "bullets": [
-                "Wrote over 5,500 lines of Java code for a chess server and client for a class project",
-                "Implemented the rules of chess in Java using object-oriented programming",
-                "Built a Java server with Spark and used a thread pool to handle multiple clients"
-            ]
-        },
-        {
-            "name": "Personal Website",
-            "description": "Portfolio Website in React",
-            "image": "assets/website.png",
-            "link": "https://evansmith.one/",
-            "bullets": [
-                "Designed and built a personal website to showcase my projects and skills (this website)",
-                "Utilized React and custom CSS to create a visually appealing site"
-            ]
-        }
+    "activities": [
+      {
+        "name": "Humor U Comedy Club (leadership)",
+        "image": "assets/humoru.jpg",
+        "link": "https://linktr.ee/humoru"
+      },
+      {
+        "name": "BYU Developers Club",
+        "image": "assets/devclub.jpg",
+        "link": "https://dev.byu.edu/"
+      },
+      {
+        "name": "Competitive Programming Club",
+        "image": "assets/cpc.png",
+        "link": "https://cs.byu.edu/community/students/clubs/byu-competitive-programming-club/"
+      }
     ]
+  },
+  "skills": [
+    { "name": "Python", "image": "assets/python.png" },
+    { "name": "NumPy", "image": "assets/numpy.png" },
+    { "name": "React", "image": "assets/react.png" },
+    { "name": "Remix", "image": "assets/remix.png" },
+    { "name": "Angular", "image": "assets/angular.svg" },
+    { "name": "HTML", "image": "assets/html.png" },
+    { "name": "CSS", "image": "assets/css.png" },
+    { "name": "JavaScript", "image": "assets/js.png" },
+    { "name": "Node.js", "image": "assets/nodejs.png" },
+    { "name": "C++", "image": "assets/c++.png" },
+    { "name": "Java", "image": "assets/java.png" },
+    { "name": "MySQL", "image": "assets/mysql.png" },
+    { "name": "Flutter", "image": "assets/flutter.png" },
+    { "name": "Swift", "image": "assets/swift.png" },
+    { "name": "Git", "image": "assets/git.png" },
+    { "name": "GitHub", "image": "assets/github.png" }
+  ],
+  "experience": [
+    {
+      "company": "Paramify",
+      "position": "Software Engineer Intern",
+      "start": "May 2024",
+      "end": "Present",
+      "image": "assets/paramify.jpg",
+      "link": "https://paramify.com/",
+      "responsibilities": [
+        "Develop and maintain client-facing application with TypeScript and React",
+        "Work across the frontend, backend, and database to implement new features",
+        "Conduct code reviews, design UIs (Ant Design), and create database models (Prisma)"
+      ]
+    },
+    {
+      "company": "BYU Family History Technology Lab",
+      "position": "Student Software Engineer",
+      "start": "October 2023",
+      "end": "Present",
+      "image": "assets/fhtl.png",
+      "link": "https://fhtl.org/",
+      "responsibilities": [
+        "Reworked authentication process for Angular web app to use OAuth 2.0",
+        "Optimized user experience in a 1 million+ user web app by implementing design enhancements",
+        "Utilized git and GitHub for collaboration and safety of production software"
+      ]
+    },
+    {
+      "company": "BYU Office of Information Technology",
+      "position": "Operations Intern",
+      "start": "February 2023",
+      "end": "October 2023",
+      "image": "assets/oit.png",
+      "link": "https://oit.byu.edu/",
+      "responsibilities": [
+        "Monitored and resolved issues for ~4,000 BYU websites, network devices, servers, and processes",
+        "Identified and addressed potential issues with a message response time under 1 minute"
+      ]
+    },
+    {
+      "company": "LaunchX Entrepreneurship Program",
+      "position": "Education and Support Intern",
+      "start": "June 2023",
+      "end": "August 2023",
+      "image": "assets/launchx.png",
+      "link": "https://launchx.com/",
+      "responsibilities": [
+        "Mentored 78 high schoolers in starting a company with over $250 in profit in 4 weeks",
+        "Increased student understanding by leading discussions on business concepts for 2 hours/week",
+        "Learned 3D printing by helping teams prototype the products for their business"
+      ]
+    },
+    {
+      "company": "BYU Office of Computer Science",
+      "position": "TA for Intro to Data Science",
+      "start": "September 2022",
+      "end": "December 2022",
+      "image": "assets/byucs.jpg",
+      "link": "https://cs.byu.edu/",
+      "responsibilities": [
+        "Managed grading for ~110 students' weekly Python assignments",
+        "Built strong teaching skills by conducting one-on-one tutoring sessions",
+        "Assisted professor by reworking 6 different assignments for clarity and readability"
+      ]
+    },
+    {
+      "company": "DataReady DFW",
+      "position": "Mobile App Developer Intern",
+      "start": "August 2020",
+      "end": "March 2021",
+      "image": "assets/dataready.jpg",
+      "link": "https://www.linkedin.com/company/dataready-dfw/",
+      "responsibilities": [
+        "Prototyped a mobile app for helping K-12 schools find, book, and coordinate field trips",
+        "Wrote ~1,600 lines of Swift code for the frontend of the app"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Mood Memo",
+      "description": "Mood Tracking and Journaling app in Flutter",
+      "image": "assets/moodmemo.png",
+      "link": "https://evansmith93.github.io/mood-memo-site/",
+      "bullets": [
+        "Built a mobile app for mood tracking and journaling and published it to the iOS and Android app stores",
+        "Programmed the app using ~2,000 lines of Flutter / Dart code"
+      ]
+    },
+    {
+      "name": "Scalamental",
+      "description": "2D GameMaker game for GitHub Game Off 2023",
+      "image": "assets/scalamental.png",
+      "link": "https://acsnow99.itch.io/scalemental",
+      "bullets": [
+        "Competed in GitHub's month-long game making competition by building a 2D action game themed to chameleons",
+        "Learned GameMaker, a game engine for 2D games, while working together with 2 other friends"
+      ]
+    },
+    {
+      "name": "YouTube Comment Filter",
+      "description": "Chrome Extension for BYU YHack 2024",
+      "image": "assets/youtube.png",
+      "link": "",
+      "bullets": [
+        "Developed an Angular Chrome extension for sorting YouTube comments by sentiment",
+        "Designed and implemented the extension with 4 friends over 24 hours",
+        "Awarded best design at the hackathon"
+      ]
+    },
+    {
+      "name": "E-waste Facts",
+      "description": "E-waste Information Website with Bootstrap",
+      "image": "assets/ewaste.png",
+      "link": "https://evansmith93.github.io/e-waste-facts/",
+      "bullets": [
+        "Advocated for e-waste reduction through the creation of a website",
+        "Invested ~10 hours building the site using custom HTML/CSS/Bootstrap"
+      ]
+    },
+    {
+      "name": "Be Rated",
+      "description": "Social Media Rating App in Flutter with BYU Dev Club",
+      "image": "assets/berated.png",
+      "link": "",
+      "bullets": [
+        "Developed collaborative programming skills by writing a mobile app with the BYU Developers Club",
+        "Storyboarded app layout and features to achieve the best design",
+        "Developed parts of the frontend in Flutter over 8 months"
+      ]
+    },
+    {
+      "name": "Chess",
+      "description": "Chess Server and Client in Java",
+      "image": "assets/chess.png",
+      "link": "",
+      "bullets": [
+        "Wrote over 5,500 lines of Java code for a chess server and client for a class project",
+        "Implemented the rules of chess in Java using object-oriented programming",
+        "Built a Java server with Spark and used a thread pool to handle multiple clients"
+      ]
+    },
+    {
+      "name": "Personal Website",
+      "description": "Portfolio Website in React",
+      "image": "assets/website.png",
+      "link": "https://evansmith.one/",
+      "bullets": [
+        "Designed and built a personal website to showcase my projects and skills (this website)",
+        "Utilized React and custom CSS to create a visually appealing site"
+      ]
+    }
+  ]
 }
-
-  
