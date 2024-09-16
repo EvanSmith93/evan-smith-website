@@ -45,12 +45,12 @@
   "skills": [
     { "name": "Python", "image": "assets/python.png" },
     { "name": "NumPy", "image": "assets/numpy.png" },
+    { "name": "TypeScript", "image": "assets/typescript.png" },
     { "name": "React", "image": "assets/react.png" },
     { "name": "Remix", "image": "assets/remix.png" },
     { "name": "Angular", "image": "assets/angular.svg" },
     { "name": "HTML", "image": "assets/html.png" },
     { "name": "CSS", "image": "assets/css.png" },
-    { "name": "JavaScript", "image": "assets/js.png" },
     { "name": "Node.js", "image": "assets/nodejs.png" },
     { "name": "C++", "image": "assets/c++.png" },
     { "name": "Java", "image": "assets/java.png" },
