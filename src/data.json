@@ -140,6 +140,16 @@
   ],
   "projects": [
     {
+      "name": "Spring",
+      "description": "Chrome Extension to prevent endless scrolling",
+      "image": "assets/spring.png",
+      "link": "https://chromewebstore.google.com/detail/spring/dlhfcfomfdknchlkpfojbnokdocmgefd/",
+      "bullets": [
+        "Developed a Chrome Extension using React and TypeScript to prevent endless scrolling on websites",
+        "The longer you scroll the harder it gets to move down the page, until you can't scroll anymore, just like a spring"
+      ]
+    },
+    {
       "name": "Mood Memo",
       "description": "Mood Tracking and Journaling app in Flutter",
       "image": "assets/moodmemo.png",
