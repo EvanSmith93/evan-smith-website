@@ -1,6 +1,6 @@
 {
   "name": "Evan Smith",
-  "bio": "Junior in Computer Science at Brigham Young University",
+  "bio": "Senior in CS at BYU / Software Engineer at Paramify",
   "education": {
     "school": {
       "name": "Brigham Young University",
@@ -9,7 +9,7 @@
     },
     "degree": "Bachelor of Science",
     "major": "Computer Science",
-    "minors": "Entrepreneurship and Mathematics",
+    "minor": "Mathematics",
     "start": "August 2022",
     "graduation": "April 2026",
     "gpa": "4.00",
@@ -17,16 +17,15 @@
     "satPercentile": "3",
     "deansList": "Fall 2023",
     "deansListPercentile": "5",
-    "emphasis": "Machine Learning",
     "courses": [
       { "number": "MATH 380", "name": "Mathematics of Data Science" },
-      { "number": "CS 180", "name": "Intro to Data Science" },
+      { "number": "CS 329", "name": "Testing, Analysis, and Verification" },
       { "number": "CS 312", "name": "Algorithm Design and Analysis" },
-      { "number": "CS 240", "name": "Advanced Software Construction" }
+      { "number": "CS 340", "name": "Software Design" }
     ],
     "activities": [
       {
-        "name": "Humor U Comedy Club (leadership)",
+        "name": "Humor U Comedy Club",
         "image": "assets/humoru.jpg",
         "link": "https://linktr.ee/humoru"
       },
@@ -63,7 +62,7 @@
   "experience": [
     {
       "company": "Paramify",
-      "position": "Software Engineer Intern",
+      "position": "Software Engineer",
       "start": "May 2024",
       "end": "Present",
       "image": "assets/paramify.jpg",

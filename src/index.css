@@ -6,6 +6,10 @@
 
 .card {
   background-color: #ffffff06;
+  /* border-style: dashed;
+  border-color: rgb(50, 190, 160);
+  border-width: 10px; */
+  box-shadow: 0px 0px 8px 1px #181818;
 }
 
 .gray {
@@ -56,7 +60,9 @@
 }
 
 .profile-picture {
-  box-shadow: 3px 3px 10px 2px rgba(100, 100, 100, 0.5);
+  /* box-shadow: 3px 3px 10px 2px rgba(100, 100, 100, 0.5); */
+  border: 10px #aaaaaa solid;
+  box-shadow: 0px 0px 8px 1px #181818;
   max-width: 25rem;
   display: block;
   width: auto;
@@ -83,10 +89,10 @@
   margin-right: 0 !important;
 }
 
-.social-buttons a:hover, 
+.social-buttons a:hover,
 .social-buttons a:active {
   transform: scale(1.1);
-  color:#ffffff;
+  color: #ffffff;
 }
 
 /* Education */
